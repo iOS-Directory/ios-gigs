@@ -40,10 +40,9 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFX-v4-4Wi">
-                                        <rect key="frame" x="124" y="219" width="150" height="40"/>
+                                        <rect key="frame" x="150" y="219" width="98" height="40"/>
                                         <color key="backgroundColor" red="0.38319260760000001" green="0.82320852239999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="150" id="N95-mx-aaa"/>
                                             <constraint firstAttribute="height" constant="40" id="c8E-Oy-dgM"/>
                                         </constraints>
                                         <state key="normal" title="Sign up">
@@ -57,6 +56,8 @@
                                 <constraints>
                                     <constraint firstItem="mON-WH-RQe" firstAttribute="leading" secondItem="s9x-ek-2gy" secondAttribute="leading" constant="25" id="7vR-I1-Eg1"/>
                                     <constraint firstAttribute="trailing" secondItem="mON-WH-RQe" secondAttribute="trailing" constant="25" id="AKc-l1-Uco"/>
+                                    <constraint firstAttribute="trailing" secondItem="gFX-v4-4Wi" secondAttribute="trailing" constant="150" id="Jf5-4g-qkG"/>
+                                    <constraint firstItem="gFX-v4-4Wi" firstAttribute="leading" secondItem="s9x-ek-2gy" secondAttribute="leading" constant="150" id="a3X-r7-b56"/>
                                     <constraint firstAttribute="trailing" secondItem="MMU-cG-4n5" secondAttribute="trailing" constant="25" id="nBy-Ne-JBo"/>
                                     <constraint firstItem="MMU-cG-4n5" firstAttribute="leading" secondItem="s9x-ek-2gy" secondAttribute="leading" constant="25" id="tSL-jV-VZB"/>
                                 </constraints>
@@ -123,7 +124,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="QUd-UD-SDH"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Bij-NO-7yL"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="signUpSegue" modalPresentationStyle="fullScreen" id="Bij-NO-7yL"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m8R-ZQ-Lyz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
