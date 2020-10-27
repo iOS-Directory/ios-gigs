@@ -8,14 +8,33 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+    
+    //MARK: - Outlets
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var PasswordTextField: UITextField!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    @IBOutlet weak var signUpButton: UIButton!
+    
+    
+    //MARK: - Properties
+    
+    
 
+    //MARK: - View Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    
+    //MARK: - Actions
+    @IBAction func segmentedControl(_ sender: UISegmentedControl) {
+    }
+    
+    @IBAction func signUpButtonPressed(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 
